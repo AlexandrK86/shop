@@ -153,28 +153,28 @@ line-height: 38px;
 }
 
 .product-1 {
-  margin-right: 5px;
+  background-image: url(../img/product-1.jpg);
 
 }
 
 .product-2 {
- 
+  background-image: url(../img/product-2.jpg);
 }
 
 .product-3 {
- 
+  background-image: url(../img/product-3.jpg);
 }
 
 .product-4 {
-  
+  background-image: url(../img/product-4.jpg);
 }
 
 .product-5 {
-  
+  background-image: url(../img/product-5.jpg);
 }
 
 .product-6 {
-  
+  background-image: url(../img/product-6.jpg);
 }
 
 .advantages {
@@ -185,7 +185,6 @@ line-height: 38px;
  display: flex;
  justify-content: space-around;
  color: #FBFBFB;
- align-items: center;
 }
 
  .subscribe {
@@ -197,7 +196,6 @@ line-height: 38px;
  .subscribe__block {
    display: flex;
    justify-content: space-around;
-   align-items: center;
  }
 
  footer {
@@ -205,12 +203,6 @@ line-height: 38px;
   min-height: 79px;
   width: auto;
   color: white;
- }
-
- .header-registration {
-   width: auto;
-   min-height: 148px;
-   background-color: #F8F3F4;
  }
 
  
