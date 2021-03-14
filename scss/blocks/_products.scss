@@ -1,0 +1,31 @@
+.products {
+    margin-top: 203px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 230px;
+        margin-right: 232px;
+      }
+
+      &__item {
+        width: 360px;
+        min-height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 30px;
+      }
+      
+      &__card-text-wrp {
+        
+      }
+
+  }
+    
+  
+
+  
+  
+ 
