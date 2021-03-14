@@ -4,11 +4,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
         
+        @include mobile {
+          flex-direction: column;
+        }
       }
       
       .offers__item {
         color: $write;
-        width: 360px;
+        width: 32%;
         min-height: 260px;
         background-color: $brown;
         margin: 0 0 30px;
@@ -17,6 +20,11 @@
         align-items: center;
 
         @include flex-center();
+
+        @include tablet {
+          width: 32%;
+          min-height: 168px;
+        }
 
         &woman--woman {
             background-image: url(../img/women.jpg);
