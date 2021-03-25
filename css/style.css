@@ -16,7 +16,7 @@ line-height: 19px;
 }
 
   .container {
-    width: 1138px;
+    width: 71%;
     margin: 0 auto;
 }
 
@@ -195,11 +195,15 @@ line-height: 38px;
  }
 
  .subscribe__block {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+
+   
+   
  }
 
+
+ .subscribe__block-2 {
+
+ }
  footer {
   background-color: #222224;
   min-height: 79px;
